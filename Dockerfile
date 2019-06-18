@@ -6,12 +6,9 @@ ENV PYTHONUNBUFFERED 1
 
 COPY Pipfile* /app/
 
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash git
 
 RUN pip install pipenv && pipenv install --system
-
-# Install python packages
-RUN pipenv install --deploy --system
 
 # Install service
 COPY . .

@@ -8,6 +8,7 @@ ipython = "*"
 django = "*"
 djangorestframework = "*"
 pika = "*"
+evestidor-event-stream = {git = "https://github.com/evestidor/event-stream.git"}
 
 [dev-packages]
 pytest = "*"

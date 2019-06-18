@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "37160ca0eb2b3071b9be28781ebc19c9c52b43aa48211c1637e2e5b0a688b36e"
+            "sha256": "b5a5cb634b9d02b37826bf55a0be1285bc7db6709adaffb7ecedffb12cb0ffad"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -53,6 +53,10 @@
             ],
             "index": "pypi",
             "version": "==3.9.4"
+        },
+        "evestidor-event-stream": {
+            "git": "https://github.com/evestidor/event-stream.git",
+            "ref": "4d7159e99031533644afffbf74272d1c64df5747"
         },
         "ipython": {
             "hashes": [

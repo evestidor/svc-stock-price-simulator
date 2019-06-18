@@ -1,12 +1,13 @@
-from src.event_stream import EventHandler
+from evestidor_event_stream import EventStream
+
 from src.domain import StockPrice
 
 
 class Publisher:
 
     def publish_stock_price(self, stock_price: StockPrice):
-        handler = EventHandler(host='evestidor-event-stream')
-        handler.publish(
+        handler = EventStream(host='evestidor-event-stream')
+        handler.send(
             exchange_name='stock_prices',
             routing_key='stock.prices.update',
             data={

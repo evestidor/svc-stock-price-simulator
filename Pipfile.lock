@@ -55,7 +55,7 @@
             "version": "==3.9.4"
         },
         "evestidor-event-stream": {
-            "git": "https://github.com/evestidor/event-stream.git",
+            "git": "https://github.com/evestidor/core-event-stream.git",
             "ref": "4d7159e99031533644afffbf74272d1c64df5747"
         },
         "ipython": {

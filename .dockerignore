@@ -1,0 +1,6 @@
+*
+!src/
+!bin/
+!Pipfile
+!Pipfile.lock
+!pytest.ini

@@ -1,0 +1,114 @@
+[
+    {
+        "country": "Brazil",
+        "symbol": "LAME4.SA",
+        "name": "Lojas Americanas S.A.",
+        "min_price": 14,
+        "max_price": 19
+    },
+    {
+        "country": "Brazil",
+        "symbol": "ABEV3.SA",
+        "name": "Ambev S.A.",
+        "min_price": 15,
+        "max_price": 19
+    },
+    {
+        "country": "Brazil",
+        "symbol": "VALE3.SA",
+        "name": "Vale S.A.",
+        "min_price": 41,
+        "max_price": 56
+    },
+    {
+        "country": "Brazil",
+        "symbol": "PETR4.SA",
+        "name": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+        "min_price": 21,
+        "max_price": 29
+    },
+    {
+        "country": "Brazil",
+        "symbol": "OIBR4.SA",
+        "name": "Oi S.A.",
+        "min_price": 1.25,
+        "max_price": 1.87
+    },
+    {
+        "country": "Brazil",
+        "symbol": "BBDC4.SA",
+        "name": "Banco Bradesco S.A.",
+        "min_price": 30.5,
+        "max_price": 38.25
+    },
+    {
+        "country": "Brazil",
+        "symbol": "ITUB4.SA",
+        "name": "Ita\u00fa Unibanco Holding S.A.",
+        "min_price": 31.44,
+        "max_price": 39.69
+    },
+    {
+        "country": "Brazil",
+        "symbol": "BVMF3.SA",
+        "name": "B3 S.A. - Brasil, Bolsa, Balc\u00e3o",
+        "min_price": 26,
+        "max_price": 38
+    },
+    {
+        "country": "Brazil",
+        "symbol": "BBDC3.SA",
+        "name": "Banco Bradesco S.A.",
+        "min_price": 27,
+        "max_price": 34
+    },
+    {
+        "country": "Brazil",
+        "symbol": "JBSS3.SA",
+        "name": "JBS S.A.",
+        "min_price": 11.3,
+        "max_price": 23.57
+    },
+    {
+        "country": "Brazil",
+        "symbol": "BBAS3.SA",
+        "name": "Banco do Brasil S.A.",
+        "min_price": 43.8,
+        "max_price": 54.65
+    },
+    {
+        "country": "Brazil",
+        "symbol": "SMLE3.SA",
+        "name": "Smiles S.A.",
+        "min_price": 39,
+        "max_price": 52
+    },
+    {
+        "country": "Brazil",
+        "symbol": "WEGE3.SA",
+        "name": "WEG S.A.",
+        "min_price": 16.92,
+        "max_price": 20.30
+    },
+    {
+        "country": "Brazil",
+        "symbol": "OIBR3.SA",
+        "name": "Oi S.A.",
+        "min_price": 1.24,
+        "max_price": 1.89
+    },
+    {
+        "country": "Brazil",
+        "symbol": "ODPV3.SA",
+        "name": "Odontoprev S.A.",
+        "min_price": 13.27,
+        "max_price": 18.01
+    },
+    {
+        "country": "Brazil",
+        "symbol": "LINX3.SA",
+        "name": "Linx S.A.",
+        "min_price": 26,
+        "max_price": 38.77
+    }
+]

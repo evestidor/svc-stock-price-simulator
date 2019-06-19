@@ -7,7 +7,6 @@ name = "pypi"
 ipython = "*"
 django = "*"
 djangorestframework = "*"
-pika = "*"
 evestidor-event-stream = {git = "https://github.com/evestidor/core-event-stream.git"}
 
 [dev-packages]

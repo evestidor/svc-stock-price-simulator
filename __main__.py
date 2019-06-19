@@ -2,7 +2,7 @@ import time
 import logging
 
 from src.stock_price_generator import StockPriceGenerator
-from src.stock_choosers import RandomStockChooser
+from src.stock_choosers import MinimumStockChooser
 from src.stock_readers import JSONStockReader
 from src.publisher import Publisher
 
@@ -26,13 +26,13 @@ class LoggedPublisher(Publisher):
 
 def main():
     reader = JSONStockReader(path='resources/stocks.json')
-    chooser = RandomStockChooser(reader)
+    chooser = MinimumStockChooser(reader)
     price_generator = StockPriceGenerator(chooser)
 
     while True:
         stock_price = price_generator.generate()
         LoggedPublisher().publish_stock_price(stock_price)
-        time.sleep(0.5)
+        time.sleep(0.2)
 
 
 main()

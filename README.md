@@ -1,7 +1,5 @@
+# stock-price-simulator
 
+[![CircleCI](https://circleci.com/gh/evestidor/core-ui/tree/master.svg?style=svg)](https://circleci.com/gh/evestidor/core-ui/tree/master)
 
-Story 01 - As an investor, I want to create my portfolio.
-Story 01 - As an investor, I want to add a stock to my portfolio.
-Story 02 - As an investor, I want to buy a lot of an added stock.
-Story 03 - As an investor, I want to track my stock prices.
-Story 04 - As an investor, I want a report with first investment date, total cost and market value.
+Microservice to generate random prices for IBovespa stock market.

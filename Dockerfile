@@ -4,13 +4,14 @@ WORKDIR /app
 
 ENV PYTHONUNBUFFERED 1
 
-COPY Pipfile* /app/
-
 RUN apk add --no-cache bash git
 
-RUN pip install pipenv && pipenv install --system
+COPY Pipfile* /app/
 
-# Install service
+RUN pip install pipenv
+
+RUN pipenv install --system --deploy --dev
+
 COPY . .
 
-CMD python .
+CMD python manage.py runserver 0.0.0.0:8000
